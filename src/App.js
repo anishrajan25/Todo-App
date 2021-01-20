@@ -39,7 +39,7 @@ export default function LayoutTextFields() {
   }, []);
 
   const handleDelete = (val) => {
-    setList(list.filter((v) => v != val));
+    setList(list.filter((v) => v !== val));
   };
 
   return (
